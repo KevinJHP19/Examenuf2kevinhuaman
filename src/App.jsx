@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import  Juego  from './views/Juego.jsx'
 import InicioVista from './views/InicioVista.jsx'
