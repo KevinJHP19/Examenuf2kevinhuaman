@@ -4,7 +4,14 @@
   padding: 2rem;
   text-align: center;
 }
+ol li{
+  text-align: start;
+  font-weight: normal;
+}
+ol {
 
+  font-weight: bold;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
