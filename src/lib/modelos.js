@@ -22,14 +22,17 @@ export const modelos = {
         [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
     ],
-    piezas:[
+    piezas: [
         {
             nombre:"Comecocos",
-            matriz: [2]
+            matriz:[
+                [2]
+            
+            ]
         },
         {
             nombre:"Fantasma",
-            matriz: [3]
+            matriz:[[3]]
         }
     ]
 }

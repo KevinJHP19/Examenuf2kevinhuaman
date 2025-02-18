@@ -6,7 +6,8 @@ export default function Panel({ modelos }){
             {modelos.map((fila, filaIndex) => (
                 <div key={filaIndex} className='row'>
                     {fila.map((celda, celdaIndex) => (
-                        <div key={celdaIndex} className={`col border bg-primary`}>
+                        <div key={celdaIndex} 
+                        className={`col border ${colorPieza(celda)}`}>
                             {celda}
                         </div>
                     ))}
@@ -15,5 +16,5 @@ export default function Panel({ modelos }){
         </div>
 
     )
-
+    
 }
