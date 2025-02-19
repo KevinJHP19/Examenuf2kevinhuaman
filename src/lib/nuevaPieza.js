@@ -1,5 +1,5 @@
 import { modelos } from './modelos.js'
-import modeloPieza from './modeloPieza.js'
+import modeloPieza from './modelopieza.js'
 
 export default function nuevaPieza(){
     return(
